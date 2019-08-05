@@ -1,0 +1,99 @@
+/*//to link the text
+<style type="text/css">
+</style>
+selector{
+	property:#;
+
+}
+10-15 html tags
+plethora of css tags
+*/
+li{
+	background: #000;
+	color: pink;
+	padding: 10px 50px 10px 50px;
+}
+header{
+	background:pink;
+	margin:0;
+	/*display:inline;*/
+}
+header h1{
+	background:#884;
+
+}
+nav ul{
+	color:green;
+	margin:0;
+	display: inline;
+
+}
+nav ul li{
+	display: inline-block;
+	list-style-type: none;
+	color:#990;
+	float: left;
+}
+nav ul li a{
+	color: white;
+}
+body{
+	background:#999;
+	font-family: arial;
+	margin:0;
+}
+
+h2{
+	color: #333;
+}
+a{
+	color:pink;
+}
+
+p{
+	background: #000;
+	color: pink;
+	padding: 50px;
+}
+
+
+/*Class specified. Does not get overridden in thee cascaded sheet
+Overrides above
+*/
+.secondary{
+	background: none;
+	color: #777;
+}
+#special{
+	background: none;
+	color: white;
+}
+#nav{
+	background: none;
+	color: green;
+}
+.row{
+
+}
+.col{
+	background:blue;
+	border-radius: 5px;
+	width:30%;
+	float: left;
+	padding: 20px;
+	margin: 1%;
+
+
+}
+.container{
+	color:white;
+	background: black;
+	margin:5% 1% 5% 1%;
+	padding: 10px 5px 10px 5px;
+
+
+}
+
+footer{
+	clear:both;
+}
