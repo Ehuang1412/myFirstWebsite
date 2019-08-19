@@ -39,7 +39,7 @@ nav ul li a{
 }
 body{
 	background:#999;
-	font-family: arial;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 	margin:0;
 }
 
@@ -56,10 +56,23 @@ p{
 	padding: 50px;
 }
 
+button{
+	background: gray;
+	border: none;
+	color: white;
+	 
+}
+
 
 /*Class specified. Does not get overridden in thee cascaded sheet
 Overrides above
 */
+.logo{
+	font-stretch: expanded;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 500%;
+	
+}
 .secondary{
 	background: none;
 	color: #777;
