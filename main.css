@@ -8,53 +8,49 @@ selector{
 10-15 html tags
 plethora of css tags
 */
-li{
-	background: #000;
-	color: pink;
-	padding: 10px 50px 10px 50px;
-}
-header{
-	background:pink;
-	margin:0;
-	/*display:inline;*/
-}
-header h1{
-	background:#884;
-
-}
-nav ul{
-	color:green;
-	margin:0;
-	display: inline;
-
-}
-nav ul li{
-	display: inline-block;
-	list-style-type: none;
-	color:#990;
-	float: left;
-}
-nav ul li a{
-	color: white;
-}
 body{
 	background:#999;
 	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 	margin:0;
+	padding:0;
+}
+header{
+	background:pink;
+	margin:0;
+	color:white;
+	/*display:inline;*/
+}
+section{
+	background: rgb(197, 191, 191);
+	margin:10px;
+	padding: 20px;
+	display:flex;
+	flex-direction: row;
+
+	
+}
+div{
+	background:red;
+	margin:10px;
+	padding: 20px;
+	/*display:flex;
+	flex-direction: column;*/
+	display: inline-block;
+	width:500px;
+	height:500px;
+	
+
+	
+}
+nav ul li{
+	background: rgba(104, 102, 103, 0.774);
+	color: rgb(230, 224, 225);
+	padding: 10px 50px 10px 50px;
+	display: inline-block;
+	margin:auto;
 }
 
-h2{
-	color: #333;
-}
-a{
-	color:pink;
-}
 
-p{
-	background: #000;
-	color: pink;
-	padding: 50px;
-}
 
 button{
 	background: gray;
@@ -68,9 +64,14 @@ button{
 Overrides above
 */
 .logo{
+	background:none;
+	color:white;
 	font-stretch: expanded;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	font-size: 500%;
+	width:100%;
+	height:60%;
+	margin:0;
 	
 }
 .secondary{
@@ -85,28 +86,12 @@ Overrides above
 	background: none;
 	color: green;
 }
-.row{
-
-}
-.col{
-	background:blue;
-	border-radius: 5px;
-	width:30%;
-	float: left;
-	padding: 20px;
-	margin: 1%;
 
 
-}
-.container{
-	color:yellow;
-	background: black;
-	margin:5% 1% 5% 1%;
-	padding: 10px 5px 10px 5px;
 
-
-}
 
 footer{
 	clear:both;
+	background:pink;
+	padding: 10px 20px;
 }
