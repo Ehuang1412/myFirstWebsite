@@ -22,22 +22,26 @@ header{
 }
 section{
 	background: rgb(197, 191, 191);
-	margin:10px;
+	/*margin:10px;*/
 	padding: 20px;
-	display:flex;
+	display: flex;
 	flex-direction: row;
+	align-items: stretch;
+	justify-content: space-between;
+
 
 	
 }
 div{
-	background:red;
-	margin:10px;
-	padding: 20px;
-	/*display:flex;
+	background:rgb(255, 0, 140);
+	padding: 20px 25px;
+	/*display:flex; /*MUST ADD TO PARENT CONTAINER* /
 	flex-direction: column;*/
-	display: inline-block;
+	/*display: inline-block;*/
 	width:500px;
-	height:500px;
+	/*height:500px;*/
+	margin:10px;
+	flex-grow:1;
 	
 
 	
@@ -49,16 +53,15 @@ nav ul li{
 	display: inline-block;
 	margin:auto;
 }
-
-
-
+h2{
+	font-size: 300%;
+}
 button{
 	background: gray;
 	border: none;
 	color: white;
 	 
 }
-
 
 /*Class specified. Does not get overridden in thee cascaded sheet
 Overrides above
@@ -74,21 +77,13 @@ Overrides above
 	margin:0;
 	
 }
-.secondary{
-	background: none;
-	color: #777;
-}
-#special{
-	background: none;
-	color: white;
-}
-#nav{
-	background: none;
-	color: green;
-}
+.intro{
+	background: white;
+	margin:0;
+	padding: 50px 100px 50px 100px;
+	width:500px;
 
-
-
+}
 
 footer{
 	clear:both;
