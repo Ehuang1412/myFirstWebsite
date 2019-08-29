@@ -14,6 +14,7 @@ body{
 	margin:0;
 	padding:0;
 }
+/* HEADER */
 header{
 	background:pink;
 	margin:0px 0px 0px 0px;
@@ -47,12 +48,17 @@ div{
 
 	
 }
-nav ul li{
+nav ul li {
 	background: rgba(104, 102, 103, 0.774);
 	color: rgb(230, 224, 225);
 	padding: 10px 50px 10px 50px;
 	display: inline-block;
-	margin:auto;
+	margin:0;
+	list-style-type: none;
+}
+nav li{
+	display: inline-block;
+	margin-right:20px;
 }
 h2{
 	font-size: 300%;
@@ -103,26 +109,47 @@ header .logowolf{
 	margin:0;
 	padding: 50px 100px 50px 100px;
 	width:500px;
-
+	font-family: 'Arial Narrow Bold';
+	font-size: 300%;
 }
-.features{
-	background: white;
+/* FEATURES */
+.flex-container{
+	background: gray;
 	color:gray;
 	padding: 20px;
 	display: flex;
 	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-content: flex-start;
+	height: 500px;
+	
 }
-.features figure{
+.flex-container figure{
 	margin: auto;
+	padding: 50px 0px 50px 0px;
 	width: 200px;
 	text-align: center; 
+	text-transform: uppercase;
+	
 }
-.features figure img{
+.flex-container figure img{
+	
 	width: 200px;
+	height: 200px;
 	border-radius: 50%;
+	box-shadow: yellow 0px 0px 10px;
 }
+
+p ul li{
+	background: orange;
+}
+/* FOOTER */
 footer{
 	clear:both;
 	background:pink;
 	padding: 10px 20px;
+	text-align: right;
+	color: gray;
+	font-size:20px;
 }
